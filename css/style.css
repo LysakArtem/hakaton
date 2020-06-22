@@ -10,6 +10,115 @@ body, body * {
 }
 
 
+
+
+.how-we-do{
+    width: 280px;
+    margin:0 auto;
+    margin-bottom: 50px;
+}
+
+.how-we-do__title{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 33px;
+    color: #18191d;
+    font-family: "Montserrat";
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.how-we-do__item{
+    width: 290px;
+    min-height: 236px;
+    filter: drop-shadow(4px 6.928px 16px rgba(29,29,27,0.11));
+    background-color: #ffffff;
+    padding-top: 32px;
+}
+
+.how-we-do__item:hover, .how-we-do__item:focus{
+    background-color: #ff6b08;
+}
+ .how-we-do__item:focus .how-we-do__methot-title {
+    color: #ffffff;
+}
+
+.how-we-do__item:focus .how-we-do__method-description{
+    color: #ffffff;
+}
+.how-we-do__item:hover .how-we-do__methot-title {
+    color: #ffffff;
+}
+
+.how-we-do__item:hover .how-we-do__method-description{
+    color: #ffffff;
+}
+.how-we-do__item:hover  .how-we-do__item-svg{
+    fill:#ffffff;
+}
+
+.how-we-do__item:focus  .how-we-do__item-svg{
+    fill:#ffffff;
+}
+
+.how-we-do__item-svg{
+    display: block;
+    width: 60px;
+    height: 60px;
+    fill:#ff6b08;
+    margin: 0 auto;
+    margin-bottom: 4px;
+}
+
+.how-we-do__item:not(:last-of-type){
+    margin-bottom: 16px;
+}
+
+.how-we-do__methot-title{
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #111517;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.how-we-do__methot-title::after{
+    content:"";
+    display:block;
+    width: 25px;
+    height: 2px;
+    background-color: #ff6b08;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 16px;
+}
+
+.how-we-do__methot-title-break{
+    display: block;
+}
+
+.how-we-do__method-description{
+    padding: 0 20px;
+    margin: 0 auto;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #858585;
+    font-family:"Montserrat";
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+
+
+
 .our-program{
     width: 320px;
     margin:0 auto;
