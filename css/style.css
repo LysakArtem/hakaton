@@ -62,6 +62,13 @@ body, body * {
     fill:#ffffff;
 }
 
+.how-we-do__item:hover  .how-we-do__methot-title::after{
+    background-color: #ffffff;
+}
+
+.how-we-do__item:focus  .how-we-do__methot-title::after{
+    background-color: #ffffff;
+}
 .how-we-do__item-svg{
     display: block;
     width: 60px;
@@ -123,7 +130,7 @@ body, body * {
     width: 320px;
     margin:0 auto;
     background-color: #111517;
-    padding-bottom: 422px;
+    padding-bottom: 318px;
     background-image: url('../img/bg-mob.png');
     background-repeat: no-repeat;
     background-position: right 1370px;
@@ -239,8 +246,14 @@ body, body * {
     width: 280px;
     margin: 0 auto;
     position: relative;
-    top:-422px;
+   
 }
+
+/* .why-we__inner-wrapper{
+    margin: 0 auto;
+    position: absolute;
+    top:-422px;
+} */
 
 .why-we__title{
     width: 150px;
@@ -298,4 +311,109 @@ body, body * {
     color: #18191d;
     font-family: "Montserrat";
     font-weight: 700;
+}
+
+
+
+
+.teacher{
+    width: 320px;
+    margin: 0 auto;
+    padding-top: 216px;
+}
+
+.teacher__wrapper{
+    width: 280px;
+    margin: 0 auto;
+}
+
+.teacher__title{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #111517;
+    font-family: "Montserrat";
+    font-weight: 800;
+    margin-bottom: 22px;
+}
+
+.teacher_photo{
+    width: 280px;
+    height:214px;
+    margin-bottom: 12px;
+}
+
+.teacher__name{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 29px;
+    color: #111517;
+    font-family: "Montserrat";
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+
+.teacher__features-item{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #111517;
+    font-family: "Montserrat";
+    font-weight: 600;
+    padding-left: 35px;
+}
+.teacher__features-item:not(:last-of-type){
+    margin-bottom: 11px;
+}
+
+.teacher__features-list{
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.teacher__features-item::before{
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/check.svg");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    position: absolute;
+    background-position: center;
+    left:0px;
+    margin-top: 8px;
+}
+
+.teacher__biography{
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #858585;
+    font-family: "Montserrat";
+    font-weight: 500;
+    padding: 0 15px;
+}
+
+.teacher__biography:first-of-type::before{
+    content: "";
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #ff6b08;
+    margin-bottom: 14px;
+
+}
+.teacher__biography:not(:last-of-type){
+    margin-bottom: 15px;
+}
+
+.teacher__sertificate{
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 29px;
+    color: #ff6b08;
+    font-family: "Montserrat";
+    font-weight: 400;
+    padding-left: 15px;
 }

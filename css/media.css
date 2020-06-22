@@ -76,7 +76,7 @@
 
     .why-we{
         width: 688px;
-        top:-310px;
+        top:-204px;
     }
     .why-we__title{
         width:100%;
@@ -91,7 +91,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        padding-bottom: 94px;
+        padding-bottom: 34px;
         padding-left: 20px;
     }
 
@@ -99,6 +99,73 @@
         width: 224px;
         padding-top: 16px;
     }
+
+
+
+    .teacher{
+        width: 768px;
+        margin-top: -410px;
+        padding-top: 216px;
+    }
+
+    .teacher__wrapper{
+        width: 688px;
+    }
+
+    .teacher__title{
+        font-size: 26px;
+        line-height: 63px;
+        margin-bottom: 15px;
+    }
+
+    .teacher__column{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .teacher__description-wrapper{
+        width: 400px;
+        display: inline-block;
+    }
+
+    .teacher_photo{
+        width: 246px;
+        height:322px;
+        margin-right: 42px;
+    }
+
+    .teacher__name{
+        font-size: 20px;
+        line-height: 15px;
+        margin-bottom: 34px;
+    }
+
+    .teacher__features-item{
+        line-height: 20px;
+        padding-right: 35px;
+    }
+
+    .teacher__features-item::before{
+        margin-top: 6px;
+    }
+
+    .teacher__features-item:not(:last-of-type){
+        margin-bottom: 15px;
+    }
+
+    .teacher__biography{
+        padding:5px;
+        letter-spacing: 0px;
+    }
+
+    .teacher__biography:not(:last-of-type){
+        margin-bottom: 6px;
+    }
+    
+    .teacher__sertificate{
+        padding-left: 6px;
+    }
+
 }
 
 @media (min-width:1280px){
@@ -112,6 +179,10 @@
         width: 390px;
         min-height: 305px;
         
+    }
+
+    .how-we-do__item:hover{
+        cursor: pointer;
     }
 
     .how-we-do__title{
@@ -145,6 +216,7 @@
         width: 1280px;
         background-image: url('../img/bg-desktop-1280px.png');
         background-position: left 490px;
+        padding-bottom: 416px;
     }
     .our-program__wrapper{
         width:1210px;
@@ -221,6 +293,8 @@
         top:-432px;
     }
 
+
+
     .why-we__title{
         font-size: 42px;
         letter-spacing: 2px;
@@ -231,6 +305,7 @@
     .why-we__list{
         width: 1024px;
         padding-top: 20px;
+        padding-bottom: 43px;
     }
 
     .why-we__item{
@@ -249,5 +324,81 @@
     .why-we__item-reason{
         font-size: 18px;
         line-height: 29px;
+    }
+
+
+
+
+    .teacher{
+        width: 1280px;
+        margin-top: -430px;
+        padding-top: 80px;
+    }
+
+    .teacher__wrapper{
+        width: 1210px;
+    }
+
+    .teacher__title{
+        font-size: 42px;
+        line-height: 63px;
+        margin-bottom: 40px;
+    }
+
+    .teacher_photo{
+        width: 492px;
+        height:644px;
+        margin-right: 88px;
+    }
+
+    .teacher__description-wrapper{
+        width:630px;
+    }
+
+    .teacher__name{
+        font-size: 29px;
+        line-height: 29px;
+        margin-bottom: 46px;
+    }
+
+    .teacher__features-list{
+        margin-bottom: 26px;
+    }
+
+    .teacher__features-item{
+        font-size: 17px;
+        line-height: 29px;
+        padding-left: 46px;
+    }
+
+    .teacher__features-item::before{
+        width: 20px;
+        height: 20px;
+        background-size: 150%;
+        margin-left: 6px;
+    }
+
+    .teacher__biography{
+        font-size: 17px;
+        letter-spacing: 1px;
+        line-height: 29px;
+        padding: 0;
+    }
+
+    .teacher__biography:first-of-type::before{
+        margin-bottom: 28px;
+    }
+
+    .teacher__biography:not(:last-of-type){
+        margin-bottom: 17px;
+    }
+
+    .teacher__sertificate{
+        font-size: 17px;
+        padding-left: 0px;
+    }
+    
+    .teacher__biography:last-of-type{
+        margin-bottom: 17px;
     }
 }
